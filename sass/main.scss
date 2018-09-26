@@ -1,4 +1,8 @@
 // import vars and modules
-@import '_vars'
+@import '_vars';
+//this is where my main styles will go
 
-.sidebar { background-color: $bgcolor; }
+//import required modules
+@import 'modules/_header';
+@import 'modules/_footer';
+@import 'modules/_classcontent';
